@@ -1,0 +1,31 @@
+
+.movies-container {
+  margin-bottom: 50px;
+  width: 100vw;
+
+  .movies-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+
+  button::before {
+    color: darkblue;
+    height: 20px;
+    width: 10px;
+    //font-size: 20px;
+  }
+  .slick-arrow {
+
+  }
+  .slick-prev {
+    //left: -50px;
+    right: 10px;
+    z-index: 1;
+  }
+
+  .slick-next {
+    z-index: 1;
+  }
+
+}

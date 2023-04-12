@@ -1,0 +1,19 @@
+
+.backgroundImage {
+  margin-top: 60px;
+  width: 100vw;
+  //height: 200px;
+  object-fit: cover;
+  background-size: 100%;
+
+
+
+  @media screen and (min-width: 768px) {
+    height: 300px;
+  }
+
+  @media screen and (min-width: 1080px) {
+    height: 500px;
+  }
+}
+

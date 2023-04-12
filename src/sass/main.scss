@@ -1,0 +1,31 @@
+@import "PictureSection";
+@import "AboutUs";
+@import "RaceOptions";
+@import "JoinUs";
+@import "Newsletter";
+@import "Races";
+@import "Newtrips";
+@import "Footer";
+@import "Navbar";
+@import "Omnie";
+@import "Movies";
+@import "BackgroundSectionView";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  ul {
+    list-style-type: none;
+  }
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+
+}
+

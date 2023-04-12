@@ -1,0 +1,59 @@
+.footer-container {
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  background-color: aqua;
+  box-shadow: -0 -15px 20px rgba(0, 255, 255, 0.25);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
+
+  .footer-logo {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    margin-left: 10px;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 20px;
+    }
+
+    .globe-icon {
+      width: 40px;
+      height: 40px;
+    }
+
+    .logo {
+      font-family: 'Amatic SC', cursive;
+      padding: 5px 0;
+      font-size: 35px;
+    }
+  }
+
+  .instagram-footer {
+    cursor: pointer;
+
+    @media screen and (min-width: 768px) {
+      margin-left: 15px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      text-decoration: none;
+
+      .instagram-icon {
+        margin-right: 5px;
+        height: 25px;
+        width: 25px;
+      }
+    }
+  }
+  .instagram-footer:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+}
